@@ -17,7 +17,9 @@ struct CircleView: View {
         VStack {
             
             //add an image
-            
+            Image("CircleDiagram")
+                .resizable()
+                .scaledToFit()
             //lable (descibe what the slider is for)
             Text("Radius")
             
