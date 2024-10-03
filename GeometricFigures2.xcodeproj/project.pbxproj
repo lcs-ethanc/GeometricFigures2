@@ -6,17 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		44D789952CAECE9D00C904B6 /* GeometricFigures2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D789922CAECE9D00C904B6 /* GeometricFigures2App.swift */; };
+		44D789962CAECE9D00C904B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D7898E2CAECE9D00C904B6 /* Preview Assets.xcassets */; };
+		44D789972CAECE9D00C904B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D789902CAECE9D00C904B6 /* Assets.xcassets */; };
+		44D7899A2CAECF7F00C904B6 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D789992CAECF7F00C904B6 /* CircleView.swift */; };
+		44D7899D2CAECFD600C904B6 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D7899C2CAECFD600C904B6 /* Circle.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		44D7895F2CAECBBE00C904B6 /* GeometricFigures2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometricFigures2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D7898E2CAECE9D00C904B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44D789902CAECE9D00C904B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44D789922CAECE9D00C904B6 /* GeometricFigures2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometricFigures2App.swift; sourceTree = "<group>"; };
+		44D789992CAECF7F00C904B6 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		44D7899C2CAECFD600C904B6 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		44D789612CAECBBE00C904B6 /* GeometricFigures2 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GeometricFigures2;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		44D7895C2CAECBBE00C904B6 /* Frameworks */ = {
@@ -32,7 +37,7 @@
 		44D789562CAECBBE00C904B6 = {
 			isa = PBXGroup;
 			children = (
-				44D789612CAECBBE00C904B6 /* GeometricFigures2 */,
+				44D789932CAECE9D00C904B6 /* GeometricFigures2 */,
 				44D789602CAECBBE00C904B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +48,42 @@
 				44D7895F2CAECBBE00C904B6 /* GeometricFigures2.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		44D7898F2CAECE9D00C904B6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				44D7898E2CAECE9D00C904B6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44D789932CAECE9D00C904B6 /* GeometricFigures2 */ = {
+			isa = PBXGroup;
+			children = (
+				44D789922CAECE9D00C904B6 /* GeometricFigures2App.swift */,
+				44D7899B2CAECFC100C904B6 /* Model */,
+				44D789982CAECF5200C904B6 /* Views */,
+				44D7898F2CAECE9D00C904B6 /* Preview Content */,
+				44D789902CAECE9D00C904B6 /* Assets.xcassets */,
+			);
+			path = GeometricFigures2;
+			sourceTree = "<group>";
+		};
+		44D789982CAECF5200C904B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44D789992CAECF7F00C904B6 /* CircleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		44D7899B2CAECFC100C904B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44D7899C2CAECFD600C904B6 /* Circle.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +100,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				44D789612CAECBBE00C904B6 /* GeometricFigures2 */,
 			);
 			name = GeometricFigures2;
 			packageProductDependencies = (
@@ -109,6 +147,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D789962CAECE9D00C904B6 /* Preview Assets.xcassets in Resources */,
+				44D789972CAECE9D00C904B6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D7899A2CAECF7F00C904B6 /* CircleView.swift in Sources */,
+				44D789952CAECE9D00C904B6 /* GeometricFigures2App.swift in Sources */,
+				44D7899D2CAECFD600C904B6 /* Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
