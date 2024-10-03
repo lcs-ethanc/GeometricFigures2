@@ -11,7 +11,7 @@ import Foundation
 protocol Describable {
     var description: String { get }
 }
-
+//2. PROCESS
 // Define the structure, adopting the new protocol
 struct Circle: Describable {
     

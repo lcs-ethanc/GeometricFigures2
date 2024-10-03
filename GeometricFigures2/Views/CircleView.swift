@@ -21,6 +21,7 @@ struct CircleView: View {
             //lable (descibe what the slider is for)
             Text("Radius")
             
+            //1. INPUT
             //slider control - to allow for user input
             Slider(
                 value: $currentCircle.radius,
@@ -28,8 +29,18 @@ struct CircleView: View {
                 step: 1.0
             )
             
-            //lable (show the current slider value)
+            //3. OUTPUT
+            //Label (show the current slider value)
             Text("Radius is: \(currentCircle.radius.formatted())")
+            
+            //Label (show the diameter)
+            Text("Diameter is: \(currentCircle.diameter.formatted())")
+            
+            //Label (show the area)
+            Text("Area is: \(currentCircle.area.formatted())")
+            
+            //Show the circumference
+            Text("Circumfernence is: \(currentCircle.circumference.formatted())")
         }
     }
 }
